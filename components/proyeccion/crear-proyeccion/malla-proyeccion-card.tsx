@@ -54,7 +54,7 @@ export default function MallaProyeccionCard({
         <p className="opacity-70 font-mono text-[11px]">{curso.codigo}</p>
         <IconComponent size={13} />
       </div>
-      <p className="text-sm text-foreground truncate">{curso.asignatura}</p>
+      <p className="text-xs text-foreground truncate">{curso.asignatura}</p>
       <span className="text-[11px] opacity-70 mt-1">{curso.creditos} SCT</span>
     </div>
   );
